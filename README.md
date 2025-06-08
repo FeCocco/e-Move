@@ -40,7 +40,7 @@ Currently, the project functions as a terminal-based application, with plans to 
 1.  **Create the Database:**
     Ensure your MySQL server is running. Create a database for the project (the name used in `Conexao.java` is `EMOVE`):
     ```sql
-    CREATE DATABASE EMOVE CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+    CREATE DATABASE EMOVE;
     ```
 2.  **Create Tables:**
     Execute the `schema.sql` script (you will need to create this file with the `CREATE TABLE` commands for `USUARIOS`, `VEICULOS`, `CIDADES`, `USUARIOS_VEICULOS`, etc., based on your logical model) to create all necessary tables in the `EMOVE` database.
